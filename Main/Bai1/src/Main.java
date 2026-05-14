@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        
         Book b1 = new Book();
         b1.title = "Java Programming";
         b1.author = "Hoang";
@@ -19,7 +18,6 @@ public class Main {
         b3.price = 120;
         b3.inStock = false;
 
-        
         System.out.println("Book 1:");
         b1.printInfo();
         System.out.println("After 10% discount:");
